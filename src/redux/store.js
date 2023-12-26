@@ -4,6 +4,7 @@ import heritageReducer from './heritageSlice';
 const store = configureStore({
   reducer: {
     heritage: heritageReducer,
+    auth: authReducer,
   },
 });
 
