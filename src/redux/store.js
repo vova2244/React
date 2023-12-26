@@ -1,8 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import authReducer from './authSlice';
+import heritageReducer from './heritageSlice';
 
 const store = configureStore({
   reducer: {
+    heritage: heritageReducer,
     auth: authReducer,
   },
 });
